@@ -1,0 +1,172 @@
+html {
+  font-size: 14px;
+}
+body {
+  -webkit-text-size-adjust: 100%;
+  background-color: #ffffff;
+}
+h1 {
+  font-size: 20px;
+  margin: 1rem 1rem 0;
+  color: #000000;
+}
+.tab {
+  border: 1px solid #999;
+  margin: 2rem 1rem 1rem;
+  line-height: 1.5;
+  position: relative;
+}
+.tabtitle {
+  border: 1px solid transparent;
+  border-color: inherit;
+  background-color: inherit;
+  position: absolute;
+  top: -0.8rem;
+  left: 1rem;
+  min-width: 7rem;
+  padding: 0 0.5rem;
+  text-align: center;
+  font-size: 1rem;
+  /* change to 10 */
+  z-index: 10;
+  line-height: 1.4rem;
+}
+.player {
+  margin: 0;
+  padding: 0 0.5rem;
+  padding-left: 10.5rem;
+  border-bottom: 1px dotted transparent;
+  border-color: inherit;
+  position: relative;
+}
+.player:last-child {
+  border-bottom: 0;
+}
+.player b {
+  display: block;
+  height: 100%;
+  width: 9rem;
+  padding: 0 0.5rem;
+  border-right: 1px solid transparent;
+  border-color: inherit;
+  position: absolute;
+  top: 0;
+  left: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.tabtitle + .player {
+  padding-top: 0.7rem;
+}
+.tabtitle + .player b {
+  padding-top: 0.7rem;
+  height: calc(100% - 0.7rem);
+}
+.diceroll {
+  padding: 0 0.5em;
+  color: #ffffff;
+}
+
+/* [メイン] タブ */
+.t0 {
+  background-color: #ffffff;
+  border-color: #999999;
+  color: #000000;
+}
+
+/* [秘匿(卍,麺面@E..)] タブ */
+.t1 {
+  background-color: #d3def1;
+  border-color: #999999;
+  color: #000000;
+}
+
+/* [秘匿(みすみ,卍)] タブ */
+.t2 {
+  background-color: #fadce9;
+  border-color: #999999;
+  color: #000000;
+}
+
+/* [成長] タブ */
+.t3 {
+  background-color: #ffffff;
+  border-color: #999999;
+  color: #000000;
+}
+
+/* [情報] タブ */
+.t4 {
+  background-color: #ffffff;
+  border-color: #999999;
+  color: #000000;
+}
+
+/* [雑談] タブ */
+.t5 {
+  background-color: #cccccc;
+  border-color: #999999;
+  color: #000000;
+  font-size: 0.8rem;
+}
+
+/* 発言者：   */
+.p0 {
+  color: #888888;
+}
+
+/* 発言者：桐生さつき */
+.p1 {
+  color: #ff5722;
+}
+
+/* 発言者：万智 心詞 */
+.p2 {
+  color: #ff9800;
+}
+
+/* 発言者：noname */
+.p3 {
+  color: #888888;
+}
+
+/* 発言者：田代 */
+.p4 {
+  color: #888888;
+}
+
+/* 発言者：ホームレス */
+.p5 {
+  color: #888888;
+}
+
+/* 発言者：system */
+.p6 {
+  color: #888888;
+}
+
+/* 発言者：ホームレス2 */
+.p7 {
+  color: #888888;
+}
+
+/* 発言者：ホームレス3 */
+.p8 {
+  color: #888888;
+}
+
+/* 発言者：目坂 */
+.p9 {
+  color: #888888;
+}
+
+/* 発言者：〇折りたたまれたメモ */
+.p10 {
+  color: #888888;
+}
+
+/* 発言者：〇ボイスレコーダー */
+.p11 {
+  color: #888888;
+}

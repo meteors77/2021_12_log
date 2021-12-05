@@ -1,0 +1,189 @@
+html {
+  font-size: 14px;
+}
+body {
+  -webkit-text-size-adjust: 100%;
+  background-color: #ffffff;
+}
+h1 {
+  font-size: 20px;
+  margin: 1rem 1rem 0;
+  color: #000000;
+}
+.tab {
+  border: 1px solid #999;
+  margin: 2rem 1rem 1rem;
+  line-height: 1.5;
+  position: relative;
+}
+.tabtitle {
+  border: 1px solid transparent;
+  border-color: inherit;
+  background-color: inherit;
+  position: absolute;
+  top: -0.8rem;
+  left: 1rem;
+  min-width: 7rem;
+  padding: 0 0.5rem;
+  text-align: center;
+  font-size: 1rem;
+  z-index: 10;
+  line-height: 1.4rem;
+}
+.player {
+  margin: 0;
+  padding: 0 0.5rem;
+  padding-left: 10.5rem;
+  border-bottom: 1px dotted transparent;
+  border-color: inherit;
+  position: relative;
+}
+.player:last-child {
+  border-bottom: 0;
+}
+.player b {
+  display: block;
+  height: 100%;
+  width: 9rem;
+  padding: 0 0.5rem;
+  border-right: 1px solid transparent;
+  border-color: inherit;
+  position: absolute;
+  top: 0;
+  left: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.tabtitle + .player {
+  padding-top: 0.7rem;
+}
+.tabtitle + .player b {
+  padding-top: 0.7rem;
+  height: calc(100% - 0.7rem);
+}
+.diceroll {
+  padding: 0 0.5em;
+  color: #ffffff;
+}
+
+/* [雑談] タブ */
+.t0 {
+  background-color: #cccccc;
+  border-color: #999999;
+  color: #000000;
+  font-size: 0.8rem;
+}
+
+/* [メイン] タブ */
+.t1 {
+  background-color: #ffffff;
+  border-color: #999999;
+  color: #000000;
+}
+
+/* [秘匿(みすみ,卍)] タブ */
+.t2 {
+  background-color: #fadce9;
+  border-color: #999999;
+  color: #000000;
+}
+
+/* [秘匿(卍,麺面@E..)] タブ */
+.t3 {
+  background-color: #d3def1;
+  border-color: #999999;
+  color: #000000;
+}
+
+/* [情報] タブ */
+.t4 {
+  background-color: #ffffff;
+  border-color: #999999;
+  color: #000000;
+}
+
+/* 発言者：   */
+.p1 {
+  color: #888888;
+}
+
+/* 発言者：万智 心詞 */
+.p2 {
+  color: #ff9800;
+}
+
+/* 発言者：桐生さつき */
+.p3 {
+  color: #ff5722;
+}
+
+/* 発言者：揣摩 */
+.p4 {
+  color: #888888;
+}
+
+/* 発言者：  ウェイトレス */
+.p6 {
+  color: #888888;
+}
+
+/* 発言者：三木の母 */
+.p7 {
+  color: #888888;
+}
+
+/* 発言者：三木 */
+.p8 {
+  color: #888888;
+}
+
+/* 発言者：system */
+.p9 {
+  color: #888888;
+}
+
+/* 発言者：刑事 */
+.p10 {
+  color: #888888;
+}
+
+/* 発言者：〇慈善支援団体エル */
+.p11 {
+  color: #888888;
+}
+
+/* 発言者：  ホームレス */
+.p12 {
+  color: #888888;
+}
+
+/* 発言者：男性 */
+.p13 {
+  color: #888888;
+}
+
+/* 発言者：田代 */
+.p14 {
+  color: #888888;
+}
+
+/* 発言者：女性 */
+.p15 {
+  color: #888888;
+}
+
+/* 発言者：目坂 */
+.p16 {
+  color: #888888;
+}
+
+/* 発言者：職員 */
+.p17 {
+  color: #888888;
+}
+
+/* 発言者：〇『共啼きに関して』 */
+.p18 {
+  color: #888888;
+}
