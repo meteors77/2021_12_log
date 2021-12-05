@@ -61,7 +61,8 @@ h1 {
 }
 .tabtitle + .player b {
   padding-top: 0.7rem;
-  height: calc(100% - 0.7rem);
+  /* change none */
+  /* height: calc(100% - 0.7rem); */
 }
 .diceroll {
   padding: 0 0.5em;
